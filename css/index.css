@@ -148,7 +148,7 @@ main .sec2 .left_box .left_2 {
 }
 
 main .sec2 .left_box .left_2 .img_box {
-  background-image: url("/img/po1.jpg");
+  background-image: url("https://kyohyunkim.github.io/pocketpaper/img/po1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -274,7 +274,7 @@ main .sec2 .right_box .right_2 {
 }
 
 main .sec2 .right_box .right_2 .img_box {
-  background-image: url("/img/po2.jpg");
+  background-image: url("https://kyohyunkim.github.io/pocketpaper/img/po2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -384,14 +384,14 @@ main .sec4 .last .text3 {
 }
 
 main .sec4 .img_1 {
-  background-image: url("/img/po3.jpg");
+  background-image: url("https://kyohyunkim.github.io/pocketpaper/img/po3.jpg");
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
 }
 
 main .sec4 .img_2 {
-  background-image: url("/img/po4.jpg");
+  background-image: url("https://kyohyunkim.github.io/pocketpaper/img/po4.jpg");
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
