@@ -196,6 +196,7 @@ main .sec2 .left_box .left_3 .details li {
   font-size: 15px;
   padding: 80px;
   text-align: center;
+  width: 100%;
 }
 
 main .sec2 .left_box .left_3 .details li .bold {
@@ -321,6 +322,7 @@ main .sec2 .right_box .right_3 .details li {
           justify-content: center;
   padding: 80px;
   text-align: center;
+  width: 100%;
 }
 
 main .sec2 .right_box .right_3 .details li .bold {
