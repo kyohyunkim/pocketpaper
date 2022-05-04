@@ -108,10 +108,41 @@ window.addEventListener('DOMContentLoaded',function(){
     box3.to(".sec3_text1", {
         rotation:0,height:0,top:-100,duration:2,
     },5);
+    box3.to(".sec3_text3", {
+        rotation:0,height:0,top:-100,duration:2,
+    },5);
 
 
     window.addEventListener('scroll',function(){
-        cle
+        if(window.scrollY >  sec3Hei*2 + winHei){
+            cle.innerHTML = "CLEAN"
+            cle.style = "opacity: 1; transform: translateY(0);"
+            plus.style = "opacity: 1; transform: translateY(0);"
+            cli.style = "opacity: 1; transform: translateY(0);"
+            t2.style = "opacity: 0; transform: translateY(50px);"
+            t3.style = "opacity: 0; transform: translateY(50px);";
+        }
+        else if(window.scrollY <  sec3Hei*2 - winHei/2){
+            cle.innerHTML = "CLEAN"
+            cle.style = "opacity: 0; transform: translateY(50px);"
+            plus.style = "opacity: 0; transform: translateY(50px);"
+            cli.style = "opacity: 0; transform: translateY(50px);"
+            t2.style = "opacity: 0; transform: translateY(50px);"
+            t3.style = "opacity: 0; transform: translateY(50px);";
+        }
+        if(window.scrollY >  sec3Hei*2 + winHei*1.5){
+            cle.innerHTML = "CLEAN"
+            cle.style = "opacity: 1; transform: translateY(0);color:#fff"
+            plus.style = "opacity: 0;transition-delay:0s;"
+            cli.style = "opacity: 0;transition-delay:0s;"
+            t2.style = "opacity: 1; transform: translateY(0px);"
+            t3.style = "opacity: 0; transform: translateY(50px);";
+        }
+        if(window.scrollY >  sec3Hei*2 + winHei*2.5){
+            cle.innerHTML = "CLINICAL";
+            t2.style = "opacity: 0;";
+            t3.style = "opacity: 1; transform: translateY(0px);";
+        }
     });
 });
 

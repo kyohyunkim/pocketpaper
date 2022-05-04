@@ -547,9 +547,24 @@ main .sec3 .sec3_text1 {
 
 main .sec3 .sec3_text1 p {
   padding: 0 20px;
-  opacity: 1;
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+}
+
+main .sec3 .sec3_text1 #cle, main .sec3 .sec3_text1 #plus, main .sec3 .sec3_text1 #cli {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+main .sec3 .sec3_text1 #plus {
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+}
+
+main .sec3 .sec3_text1 #cli {
+  -webkit-transition-delay: .4s;
+          transition-delay: .4s;
 }
 
 main .sec3 .sec3_text2 {
@@ -577,7 +592,10 @@ main .sec3 .sec3_text2 p {
   padding-right: 20%;
   color: #fff;
   font-size: 20px;
-  opacity: 1;
+  opacity: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+  text-align: center;
 }
 
 main .sec3 .sec3_text3 {
@@ -606,12 +624,15 @@ main .sec3 .sec3_text3 ul {
   color: #fff;
   font-size: 20px;
   text-align: center;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 main .sec3 .sec3_text3 li:nth-of-type(1) {
   font-size: 25px;
   font-weight: 500;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 main .sec3 .sec3_text3 li:nth-of-type(2) {
@@ -619,10 +640,22 @@ main .sec3 .sec3_text3 li:nth-of-type(2) {
 }
 
 main .sec3 .sec3_text3 li:nth-of-type(3) {
-  font-size: 15px;
+  font-size: 13px;
   border: 1px solid #fff;
   border-radius: 50px;
-  padding: 5px 10px;
-  margin-bottom: 120px;
+  margin: 0 auto 100px;
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+}
+
+main .sec3 .sec3_text3 li:nth-of-type(4) {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+main .sec3 .sec3_text3 li:nth-of-type(5) {
+  font-weight: 300;
 }
 /*# sourceMappingURL=index.css.map */
