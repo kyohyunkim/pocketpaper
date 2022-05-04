@@ -78,28 +78,36 @@ window.addEventListener('DOMContentLoaded',function(){
     },2);
 
     box2.to(".bold", {
-        rotation:0,scale:1.2,
+        rotation:0,scale:1,
     },2.5);
 
-    let box4 = gsap.timeline({
+
+    let box3 = gsap.timeline({
         scrollTrigger: {
-            trigger: ".sec4",
+            trigger: ".sec3",
             scrub: true,
             pin: true,
             start: `${sec1Hei}`,
-            end: `${sec3Hei}`,
+            end: `${sec3Hei + winHei}`,
             ease: "power3", 
             markers:false
         }
     });
 
-    box4.to(".img_1", {
-        rotation:0,height:0,y:-200,
-    },0);
+    box3.to(".green", {
+        rotation:0,height:0,y:-200,duration:2,
+    },1);
 
-    box4.to(".img_2", {
-        rotation:0,height:0,y:-200,
-    },0.3);
+    box3.to(".img_1", {
+        rotation:0,height:0,y:-200,duration:2,
+    },2);
+
+    box3.to(".img_2", {
+        rotation:0,height:0,y:-200,duration:2,
+    },3);
+    box3.to(".sec3_text", {
+        rotation:0,height:0,top:-100,duration:2,
+    },3);
 });
 
 // window.onload = function () {
