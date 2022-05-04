@@ -100,14 +100,19 @@ window.addEventListener('DOMContentLoaded',function(){
 
     box3.to(".img_1", {
         rotation:0,height:0,y:-200,duration:2,
-    },2);
+    },3);
 
     box3.to(".img_2", {
         rotation:0,height:0,y:-200,duration:2,
-    },3);
-    box3.to(".sec3_text", {
+    },5);
+    box3.to(".sec3_text1", {
         rotation:0,height:0,top:-100,duration:2,
-    },3);
+    },5);
+
+
+    window.addEventListener('scroll',function(){
+        cle
+    });
 });
 
 // window.onload = function () {
