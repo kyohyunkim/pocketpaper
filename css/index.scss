@@ -211,6 +211,13 @@ main{
             align-items: center;
             font-size: 100px;
             font-weight: 400;
+            #t3_cli{
+                margin-right: 13%;
+                font-weight: 600;
+                color:#fff;
+                opacity:0;
+                transition:.5s;
+            }
             ul{padding-right:20%;color:#fff;font-size: 20px;text-align: center;opacity:0;transition:1s;}
             li:nth-of-type(1){font-size:25px; font-weight: 500;margin-bottom:30px;}
             li:nth-of-type(2){margin-bottom: 30px;}

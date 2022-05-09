@@ -619,6 +619,15 @@ main .sec3 .sec3_text3 {
   font-weight: 400;
 }
 
+main .sec3 .sec3_text3 #t3_cli {
+  margin-right: 13%;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
 main .sec3 .sec3_text3 ul {
   padding-right: 20%;
   color: #fff;
